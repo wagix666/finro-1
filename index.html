@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinRo Asset Finance - Where Relationships Matter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Force remove all shadows and set colors in Hero Section */
+        .hero-full-bg,
+        .hero-full-bg *,
+        .hero-eyebrow,
+        .hero-full-title,
+        .hero-full-description {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
+            box-shadow: none !important;
+            filter: none !important;
+        }
+
+        .hero-eyebrow,
+        .hero-full-title,
+        .hero-full-title span,
+        .hero-full-description {
+            color: #000000 !important;
+        }
+
+        .hero-eyebrow {
+            color: #007dff !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            gap: 0 !important;
+        }
+
+        .hero-eyebrow::after {
+            content: '' !important;
+            flex-grow: 0 !important;
+            width: 150px !important;
+            height: 3px !important;
+            background: #007dff !important;
+            margin: 0.8rem 0 0 0 !important;
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-premium">
+        <div class="nav-container-flat">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="FinRo Asset Finance.png" alt="FinRo Asset Finance">
+                </a>
+                <span class="nav-divider"></span>
+            </div>
+
+            <nav id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay">
+        <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="why-choose-us.html">Why Choose Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Modern Professional Hero Section -->
+    <section class="hero-full-bg">
+        <!-- Professional Background Image Layer -->
+        <div class="hero-slides-container">
+            <div class="hero-slide active" style="background-image: url('images/Website Design jjjj.jpg.jpeg');">
+            </div>
+        </div>
+
+        <!-- Subtle Light Gradient Overlay for text legibility -->
+        <div class="hero-overlay-soft"></div>
+
+        <div class="container hero-full-container">
+            <div class="hero-full-content">
+                <span class="hero-eyebrow">Where Relationships Matter</span>
+                <h1 class="hero-full-title">
+                    Smart Asset Finance <br>
+                    <span>Solution for your Business</span>
+                </h1>
+                <p class="hero-full-description">
+                    Innovative strategies and tailored asset finance solutions designed to drive your commercial
+                    success.
+                </p>
+                <div class="hero-full-actions">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/61419665293" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Special Offers Carousel -->
+    <section class="section reveal-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Exclusive Opportunities</h2>
+            <div class="offers-carousel-container">
+                <div class="offers-carousel">
+                    <!-- Slide 1: EOFY -->
+                    <div class="offer-slide active">
+                        <div class="offer-banner">
+                            <div class="offer-content">
+                                <span class="offer-tag">Limited Time</span>
+                                <h2>End of Financial Year Asset Write Off</h2>
+                                <p>Take advantage of instant asset write-off provisions with our tailored low-rate
+                                    finance packages for new equipment purchases.</p>
+                                <a href="contact.html" class="btn btn-secondary">Enquire Now</a>
+                            </div>
+                            <div class="offer-visual-frame">
+                                <div class="offer-visual" style="background-image: url('images/special-offer.jpg');">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Fast Track -->
+                    <div class="offer-slide">
+                        <div class="offer-banner offer-banner-dark">
+                            <div class="offer-content">
+                                <span class="offer-tag">Premium Service</span>
+                                <h2>Premium Fast-Track Equipment Finance</h2>
+                                <p>Accelerate your business growth with our simplified approval process and competitive
+                                    rates for premium asset acquisitions.</p>
+                                <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                            </div>
+                            <div class="offer-visual-frame">
+                                <div class="offer-visual"
+                                    style="background-image: url('images/special-offer-new.jpg');">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Navigation -->
+                <div class="carousel-nav">
+                    <button class="carousel-dot active" data-index="0"></button>
+                    <button class="carousel-dot" data-index="1"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asset Solutions Carousel -->
+    <section class="section background-white reveal-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Services We Offer</h2>
+            <div class="services-carousel-container">
+                <div class="services-slide active">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.58 PM.jpeg"
+                        alt="Commercial Bus Finance">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.58 PM (1).jpeg"
+                        alt="Construction Machinery">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.58 PM (2).jpeg" alt="Medical Equipment">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.59 PM.jpeg" alt="Heavy Truck Finance">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.59 PM (1).jpeg"
+                        alt="Logistics & Freight">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.59 PM (2).jpeg" alt="Fleet Management">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.59 PM (3).jpeg"
+                        alt="Earthmoving Equipment">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.42.00 PM.jpeg" alt="Healthcare Technology">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.42.00 PM (1).jpeg"
+                        alt="Public Transport Solutions">
+                </div>
+                <div class="services-slide">
+                    <img src="images/services/WhatsApp Image 2026-03-05 at 1.42.00 PM (2).jpeg"
+                        alt="Commercial Transport">
+                </div>
+                <div class="carousel-nav-overlay">
+                    <div class="carousel-dots service-dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Lenders Section -->
+    <section class="section background-light reveal-on-scroll pt-extra">
+        <div class="container">
+            <h2 class="section-title">Our Lending Network</h2>
+            <p class="section-subtitle">We work with a comprehensive panel of over 40 lenders including major banks and
+                specialist financiers to secure the best outcome for your business.</p>
+
+            <div class="logo-marquee">
+                <div class="logo-track">
+                    <!-- Set 1 -->
+                    <img src="images/lenders/Westpac.png" alt="Westpac" class="partner-logo">
+                    <img src="images/lenders/BOQ.png" alt="BOQ" class="partner-logo">
+                    <img src="images/lenders/Latitude.png" alt="Latitude" class="partner-logo">
+                    <img src="images/lenders/Pepper Money.png" alt="Pepper Money" class="partner-logo">
+                    <img src="images/lenders/Judo Bank.png" alt="Judo Bank" class="partner-logo">
+                    <img src="images/lenders/Resimac Asset Finance.png" alt="Resimac" class="partner-logo">
+                    <img src="images/lenders/ScotPac Business Finance.png" alt="ScotPac" class="partner-logo">
+                    <img src="images/lenders/Shift.png" alt="Shift" class="partner-logo">
+                    <img src="images/lenders/Bizcap.png" alt="Bizcap" class="partner-logo">
+                    <img src="images/lenders/Banjo.png" alt="Banjo" class="partner-logo">
+                    <img src="images/lenders/Early Pay.png" alt="Early Pay" class="partner-logo">
+                    <img src="images/lenders/Moula.png" alt="Moula" class="partner-logo">
+
+                    <!-- Repeat for seamless scroll -->
+                    <img src="images/lenders/Westpac.png" alt="Westpac" class="partner-logo">
+                    <img src="images/lenders/BOQ.png" alt="BOQ" class="partner-logo">
+                    <img src="images/lenders/Latitude.png" alt="Latitude" class="partner-logo">
+                    <img src="images/lenders/Pepper Money.png" alt="Pepper Money" class="partner-logo">
+                    <img src="images/lenders/Judo Bank.png" alt="Judo Bank" class="partner-logo">
+                    <img src="images/lenders/Resimac Asset Finance.png" alt="Resimac" class="partner-logo">
+                    <img src="images/lenders/ScotPac Business Finance.png" alt="ScotPac" class="partner-logo">
+                    <img src="images/lenders/Shift.png" alt="Shift" class="partner-logo">
+                    <img src="images/lenders/Bizcap.png" alt="Bizcap" class="partner-logo">
+                    <img src="images/lenders/Banjo.png" alt="Banjo" class="partner-logo">
+                    <img src="images/lenders/Early Pay.png" alt="Early Pay" class="partner-logo">
+                    <img src="images/lenders/Moula.png" alt="Moula" class="partner-logo">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section background-white">
+        <div class="container">
+            <div class="cta-dark">
+                <h2>Ready to discuss your funding requirements?</h2>
+                <p>Engage with a specialist asset finance partner that delivers disciplined advice.</p>
+                <div class="center">
+                    <a href="contact.html" class="btn btn-dark-navy">Contact Us Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo-container">
+                        <img src="FinRo Asset Finance.png" alt="FinRo Asset Finance" class="footer-logo">
+                    </a>
+                    <span class="footer-eyebrow">Where Relationships Matter</span>
+                    <h4>FinRo Asset Finance</h4>
+                    <p>Specialist asset finance brokerage supporting Australian businesses.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #94A3B8; font-weight: 700;">Call us now for
+                        a free consultation.</p>
+                    <div class="footer-contact-grid">
+                        <div class="footer-contact-member">
+                            <h5>Peter Michaels</h5>
+                            <ul class="footer-links">
+                                <li><i class="fas fa-phone"></i> 0419 665 293</li>
+                                <li><i class="fas fa-envelope"></i> peter@finroassetfinance.com.au</li>
+                            </ul>
+                        </div>
+                        <div class="footer-contact-member">
+                            <h5>Roshini Senanayake</h5>
+                            <ul class="footer-links">
+                                <li><i class="fas fa-phone"></i> 0402 740 838</li>
+                                <li><i class="fas fa-envelope"></i> roshini@finroassetfinance.com.au</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="footer-links"
+                        style="margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1.5rem;">
+                        <li><i class="fas fa-map-marker-alt"></i> Suite 8/80-82 Keilor Road, Essendon 3041</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 FinRo Asset Finance Pty Ltd. All rights reserved. | <a
+                        href="disclaimer.html">Disclaimer</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -19,29 +19,59 @@
             filter: none !important;
         }
 
-        .hero-eyebrow,
-        .hero-full-title,
-        .hero-full-title span,
-        .hero-full-description {
-            color: #000000 !important;
+        @media (min-width: 769px) {
+
+            .hero-eyebrow,
+            .hero-full-title,
+            .hero-full-title span,
+            .hero-full-description {
+                color: #000000 !important;
+            }
+
+            .hero-eyebrow {
+                color: #007dff !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 0 !important;
+            }
+
+            .hero-eyebrow::after {
+                content: '' !important;
+                flex-grow: 0 !important;
+                width: 150px !important;
+                height: 3px !important;
+                background: #007dff !important;
+                margin: 0.8rem 0 0 0 !important;
+                box-shadow: none !important;
+            }
         }
 
-        .hero-eyebrow {
-            color: #007dff !important;
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: flex-start !important;
-            gap: 0 !important;
-        }
+        @media (max-width: 768px) {
+            .hero-eyebrow {
+                color: #007dff !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                gap: 0 !important;
+                text-align: center !important;
+            }
 
-        .hero-eyebrow::after {
-            content: '' !important;
-            flex-grow: 0 !important;
-            width: 150px !important;
-            height: 3px !important;
-            background: #007dff !important;
-            margin: 0.8rem 0 0 0 !important;
-            box-shadow: none !important;
+            .hero-eyebrow::after {
+                content: '' !important;
+                flex-grow: 0 !important;
+                width: 100px !important;
+                height: 3px !important;
+                background: #007dff !important;
+                margin: 0.8rem auto 0 auto !important;
+                box-shadow: none !important;
+            }
+
+            .hero-full-title,
+            .hero-full-title span,
+            .hero-full-description {
+                color: #ffffff !important;
+            }
         }
     </style>
 </head>
@@ -187,6 +217,15 @@
             <h2 class="section-title">Services We Offer</h2>
             <div class="services-carousel-container">
                 <div class="services-slide active">
+                    <img src="images/truck-1.jpg" alt="Heavy Haulage Truck">
+                </div>
+                <div class="services-slide">
+                    <img src="images/truck-2.jpg" alt="Commercial Semi-Trailer">
+                </div>
+                <div class="services-slide">
+                    <img src="images/truck-3.jpg" alt="Logistics Fleet Truck">
+                </div>
+                <div class="services-slide">
                     <img src="images/services/WhatsApp Image 2026-03-05 at 1.41.58 PM.jpeg"
                         alt="Commercial Bus Finance">
                 </div>

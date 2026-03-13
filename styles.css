@@ -6968,6 +6968,33 @@ body {
     .section-title {
         font-size: 2.1rem !important;
     }
+
+    /* Footer Mobile Tidiness Fixes */
+    .footer-contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2.5rem !important;
+    }
+
+    .footer-contact-member {
+        text-align: center !important;
+    }
+
+    .footer-contact-member h5 {
+        font-size: 1.4rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+
+    .footer-contact-member ul li {
+        font-size: 1.25rem !important;
+        white-space: normal !important;
+        margin-bottom: 0.8rem !important;
+        justify-content: center !important;
+    }
+
+    .footer-links i {
+        font-size: 1.6rem !important;
+        width: 30px !important;
+    }
 }
 
 @media (max-width: 480px) {

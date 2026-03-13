@@ -6593,6 +6593,22 @@ body {
     .footer-links li {
         justify-content: center !important;
         width: 100% !important;
+        font-size: 1.2rem !important;
+        white-space: normal !important;
+        text-align: center !important;
+    }
+
+    .footer-contact-member h5 {
+        font-size: 1.4rem !important;
+    }
+
+    .footer-links i {
+        font-size: 1.5rem !important;
+        width: auto !important;
+        min-width: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .copyright {

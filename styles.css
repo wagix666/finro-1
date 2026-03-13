@@ -6988,3 +6988,78 @@ body {
         font-size: 1.8rem !important;
     }
 }
+/* Premium Contact Section */
+.premium-contact-cta {
+    background-color: #020617;
+    padding: 8rem 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.premium-brand {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.premium-subtext {
+    font-size: 1.25rem;
+    color: #94a3b8;
+    max-width: 600px;
+    margin: 0 auto 5rem auto;
+    line-height: 1.6;
+}
+
+.premium-contact-label {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 2.5rem;
+}
+
+.premium-cta-text {
+    font-family: var(--font-heading);
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .premium-contact-cta {
+        padding: 6rem 1.5rem;
+    }
+    .premium-brand {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+    .premium-subtext {
+        font-size: 1.1rem;
+        margin-bottom: 4rem;
+    }
+    .premium-cta-text {
+        font-size: 2rem;
+    }
+}
+
+/* Added for footer consultation text alignment */
+.footer-cta-text {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: #94A3B8;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .footer-cta-text {
+        font-size: 1rem !important;
+    }
+}

@@ -588,7 +588,7 @@ footer {
 
 .footer-contact-member ul li {
     margin-bottom: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .copyright {
@@ -4157,7 +4157,7 @@ footer {
 
 .footer-contact-member ul li {
     margin-bottom: 0.6rem;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
 }
 
 .copyright {
@@ -6586,7 +6586,7 @@ body {
     }
 
     .footer-contact-grid .footer-links li:first-child {
-        font-size: 1.5rem !important;
+        font-size: 1.2rem !important;
         font-weight: 700 !important;
         margin-bottom: 0.5rem !important;
     }
@@ -6594,7 +6594,7 @@ body {
     .footer-links li {
         justify-content: center !important;
         width: 100% !important;
-        font-size: 1.1rem !important;
+        font-size: 1.2rem !important;
         white-space: normal !important;
         text-align: center !important;
     }

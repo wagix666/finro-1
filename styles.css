@@ -2056,8 +2056,6 @@ footer {
                 rgba(0, 0, 0, 0.6) 0%,
                 rgba(0, 0, 0, 0.3) 30%,
                 rgba(0, 0, 0, 0) 100%);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
         /* Mask to fade out the blur and overlay itself at the bottom */
         mask-image: linear-gradient(to bottom, black 40%, transparent 80%);
         -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 80%);

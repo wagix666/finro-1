@@ -6988,6 +6988,7 @@ body {
         font-size: 1.8rem !important;
     }
 }
+
 /* Premium Contact Section */
 .premium-contact-cta {
     background-color: #020617;
@@ -7037,14 +7038,17 @@ body {
     .premium-contact-cta {
         padding: 6rem 1.5rem;
     }
+
     .premium-brand {
         font-size: 1.8rem;
         letter-spacing: 2px;
     }
+
     .premium-subtext {
         font-size: 1.1rem;
         margin-bottom: 4rem;
     }
+
     .premium-cta-text {
         font-size: 2rem;
     }
@@ -7061,5 +7065,7 @@ body {
 @media (max-width: 768px) {
     .footer-cta-text {
         font-size: 1rem !important;
+        font-weight: 400 !important;
+        margin-bottom: 0 !important;
     }
 }
